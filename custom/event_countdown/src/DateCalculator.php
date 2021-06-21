@@ -9,7 +9,7 @@ class dateCalculator{
     $difference = $this->Difference($date);
     // future event
     if($difference >= 1) {
-      return $difference . " " .  "days left until event starts";
+      return $difference . " days left until event starts";
       // same day event
     } else if($difference == 0) {
       return "This event is happening today";
